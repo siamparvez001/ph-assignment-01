@@ -188,13 +188,13 @@
     max-width: 800px;
     height: 1200px;
     padding-top: 150px;
-    margin-right: 300px;
+    margin-right: 200px;
      
 }
 #brain .brain-contain .brain-text .txt{
     color: #30B868;
     font-size: 37px;
-    font-family: 300px;
+    font-family: 900px;
     margin-bottom: 20px;
 }
 #brain .brain-contain .brain-text h2{
@@ -225,10 +225,9 @@
     align-items: center;
 }
 
-#brain .brain-contain  .brain-photo{
-    
-    width: 800px;
-    height: 800px;
+#brain .brain-contain  .brain-photo{ 
+    width: 1000px;
+    height: 1000px;
 } 
 #challenge{
     background: rgba(247, 246, 242, 1);
