@@ -43,7 +43,7 @@
 #hero {
     width: 100%;
     height: 800px;
-    margin: 0;
+    
     background: url(../images/hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -52,17 +52,16 @@
 }
 
 #hero .hero-section {
+    max-height: 400px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 0;
-    margin: 0 auto;
-    padding: 0 auto;
+    align-items: center;   
+     
 
 }
 
 #hero .hero-heading {
-    margin-top: 150px;
+    margin-top: 140px ;
 }
 
 #hero .hero-heading h6 {
@@ -78,10 +77,10 @@
 }
 
 #hero .hero-container p {
-    font-size: 100px;
+    font-size: 90px;
     padding-top: 25px;
     line-height: 70px;
-    margin: 0px 295px;
+    margin: 0 295px;
 }
 
 #hero .hero-container .white {
@@ -169,8 +168,9 @@
 
 #down .card .main-card {
     text-align: center;
-    padding: 30px 20px;
-    height: 350px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    max-height: 500px;
     align-content: center;
     box-shadow: 0 0 6px 0px rgb(215, 213, 213);
 }
@@ -267,14 +267,15 @@
 #brain .brain-contain .brain-img {
     /* margin-bottom: 150px; */
     margin-top: 60px;
-    width: 700px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
 }
 
 #challenge {
     background: rgba(247, 246, 242, 1);
     margin: 120px 140px;
     border-radius: 25px;
+    max-height: 400px;
 
 }
 
@@ -282,7 +283,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 120px;
+    padding: 80px 0;
+    
 }
 
 .challenge-container h2 {
@@ -326,10 +328,13 @@
     padding: 80px;
 
 }
-
+#footer .footer-logo{
+    padding-top: 50px;
+}
 #footer .footer-text h5 {
     color: #FFFF;
-    font-size: 30px;
+    font-size: 25px;
+    padding-bottom: 7px;
 }
 
 #footer .footer-text ul {
