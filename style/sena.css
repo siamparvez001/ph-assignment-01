@@ -188,7 +188,7 @@
     max-width: 800px;
     height: 1200px;
     padding-top: 150px;
-    margin-right: 100px;
+    margin-right: 300px;
      
 }
 #brain .brain-contain .brain-text .txt{
@@ -225,9 +225,9 @@
     align-items: center;
 }
 
-#brain .brain-contain .brain-img{
+#brain .brain-contain  .brain-photo{
     
-    max-width: 800px;
+    width: 800px;
     height: 800px;
 } 
 #challenge{
