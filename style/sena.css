@@ -342,7 +342,7 @@
 #footer .footer-text {
     display: flex;
     justify-content: space-between;
-    padding: 80px;
+    padding: 105px;
 
 }
 #footer .footer-logo{
@@ -384,4 +384,7 @@
 #hero .hero-btn .normal-btn:hover{
     color: #469165;
     border: #469165;
+}
+#footer .footer-container p{
+    
 }
