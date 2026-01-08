@@ -9,8 +9,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 80px;
-    margin: 7px 0px;
+    padding: 20px 80px;
+    
 }
 
 #navbar .nav-logo {
@@ -64,7 +64,7 @@
     margin-top: 140px ;
 }
 
-#hero .hero-heading h6 {
+#hero .hero-heading button {
     cursor: pointer;
     display: inline-block;
     border-radius: 1000px;
@@ -302,14 +302,31 @@
     margin-left: 200px;
     margin-right: 200px;
 }
-
-.challenge-container .challenge-btn {
+   
+#challenge .challenge-container .challenge-btn {
     display: flex;
     flex-direction: row;
     align-content: center;
-    margin: 25px 0px 10px 0px;
+    
+    margin: 15px 0px 10px 0px;
+    
 }
-
+#challenge .challenge-container .challenge-btn #cla-btn:hover{
+    color: #469165;
+    background-color: #FFFF;
+}
+#challenge .challenge-container .challenge-btn #cla-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin: 10px 0px 10px 0px;
+    background-color:#469165;
+    color: #FFFF;
+    cursor: pointer;
+}
 #footer {
     background: rgba(0, 25, 49, 1);
     height: 370px;
@@ -347,4 +364,24 @@
     border-radius: 50%;
     width: 50px;
     height: 50px;
+}
+#btn-hvr:hover{
+    color: #30B868;
+    background-color: #FFFF;
+}
+#hero .hero-btn .btn-hovr:hover{
+    color: #30B868;
+    background-color: #FFFF;
+}
+#hero .hero-btn .normal-btn .btn-hver:hover{
+    color: #30B868;
+    background-color: #FFFF;
+}
+#hero .hero-heading .btn-hover:hover{
+    color: #FFFF;
+    background-color: #469165;
+}
+#hero .hero-btn .normal-btn:hover{
+    color: #469165;
+    border: #469165;
 }
