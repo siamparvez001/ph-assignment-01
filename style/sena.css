@@ -180,10 +180,11 @@
 }
 #brain{
     margin: 0;
+    max-height: 750px;
+    border: 1px solid black;
 }
 #brain .brain-contain{
-    max-height: 800px;
-    margin-top: 150px;
+    border: 1px solid red;
     margin-bottom: 0;
     display: flex; 
     justify-content: space-around;
