@@ -181,7 +181,8 @@
 #brain .brain-contain{
     margin-top: 150px;
     display: flex;
-    align-items: center;
+    
+    
     justify-content: space-between;
     gap: 10px;
 }
@@ -228,8 +229,9 @@
 }
 
 #brain .brain-contain  .brain-photo{ 
-    width: 500px;
-    height: 500px;
+    margin-top: 40px;
+    width: 700px;
+    height: 700px;
 } 
 #challenge{
     background: rgba(247, 246, 242, 1);
