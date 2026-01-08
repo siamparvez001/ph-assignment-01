@@ -180,6 +180,7 @@
 }
 #brain .brain-contain{
     margin-top: 150px;
+    margin-bottom: 0;
     display: flex;
     
     
@@ -228,16 +229,16 @@
     align-items: center;
 }
 
-#brain .brain-contain  .brain-photo{ 
-    margin-bottom: 150px;
+#brain .brain-contain  .brain-img{ 
+   /* margin-bottom: 150px; */
     width: 700px;
-    height: 700px;
+    height:500px;
 } 
 #challenge{
     background: rgba(247, 246, 242, 1);
-    margin: 140px;
+    margin: 0  140px 140px 140px;
     border-radius: 25px;
-    margin-top: 0px;
+    
 }
 .challenge-container{
  
@@ -246,7 +247,7 @@
     flex-direction: column;
     align-items: center;
      
-    padding: 120px 120px 120px 120px;
+    padding: 120px;
    
 }
 .challenge-container h2{
