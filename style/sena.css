@@ -178,13 +178,15 @@
     padding-bottom: 10px;
     font-weight: bold;
 }
+#brain{
+    margin: 0;
+}
 #brain .brain-contain{
+    height: 800px;
     margin-top: 150px;
     margin-bottom: 0;
-    display: flex;
-    
-    
-    justify-content: space-between;
+    display: flex; 
+    justify-content: space-around;
     gap: 10px;
 }
 #brain .brain-contain .brain-text{
