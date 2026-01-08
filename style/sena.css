@@ -1,21 +1,24 @@
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
-#navbar .nav-container{
+
+#navbar .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 80px;
     margin: 7px 0px;
 }
-#navbar .nav-logo{
+
+#navbar .nav-logo {
     width: 200px;
-     
+
 }
-#navbar .nav-container ul{
+
+#navbar .nav-container ul {
     display: flex;
     list-style: none;
     font-size: 25px;
@@ -25,9 +28,10 @@
     cursor: pointer;
 
 }
-#navbar .nav-btn{
+
+#navbar .nav-btn {
     padding: 15px 23px;
-    
+
     background-color: #469165;
     color: #FFFF;
     font-size: 25px;
@@ -38,28 +42,30 @@
 
 #hero {
     width: 100%;
-    height:800px;
-    margin: 0; 
+    height: 800px;
+    margin: 0;
     background: url(../images/hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+
 }
-#hero .hero-section{
+
+#hero .hero-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 0;
     margin: 0 auto;
     padding: 0 auto;
-    
+
 }
 
-#hero .hero-heading{
+#hero .hero-heading {
     margin-top: 150px;
 }
-#hero .hero-heading h6{
+
+#hero .hero-heading h6 {
     cursor: pointer;
     display: inline-block;
     border-radius: 1000px;
@@ -67,22 +73,26 @@
     font-size: 20px;
     margin-bottom: 10px;
     background-color: white;
-    border:1px solid #30B868;
-    padding:12px 18px;
+    border: 1px solid #30B868;
+    padding: 12px 18px;
 }
-#hero .hero-container p{
+
+#hero .hero-container p {
     font-size: 100px;
     padding-top: 25px;
     line-height: 70px;
     margin: 0px 295px;
 }
-#hero .hero-container .white{
+
+#hero .hero-container .white {
     color: white;
 }
-#hero .hero-container .green{
+
+#hero .hero-container .green {
     color: green;
 }
-#hero .text-container .text{
+
+#hero .text-container .text {
     line-height: 30px;
     font-size: 20px;
     width: 700px;
@@ -90,15 +100,17 @@
     text-align: center;
     padding: 30px 0px;
 }
-#hero .hero-btn{
+
+#hero .hero-btn {
     display: flex;
     gap: 20px;
     flex-direction: row;
-    
-    
-    
+
+
+
 }
-#arro-btn{
+
+#arro-btn {
     display: flex;
     border: none;
     flex-direction: row;
@@ -111,10 +123,12 @@
     align-items: center;
     cursor: pointer;
 }
-#hero .hero-btn .arro-btn img{
+
+#hero .hero-btn .arro-btn img {
     color: white;
 }
-#hero .hero-btn .normal-btn{
+
+#hero .hero-btn .normal-btn {
     cursor: pointer;
     background: none;
     padding: 12px 16px;
@@ -124,179 +138,206 @@
     border-radius: 10px;
 }
 
-#down .down-container{
+#down .down-container {
     display: flex;
     flex-direction: column;
     margin: 0 100px;
-    padding: 70px auto ;
+    padding: 70px auto;
     text-align: center;
     padding-top: 70px;
 }
-#down .down-container h3{
+
+#down .down-container h3 {
     font-size: 60px;
     font-weight: bold;
 }
-#down .down-container p{
+
+#down .down-container p {
     font-size: 20px;
     font-weight: 400px;
     color: #8e8d8d;
 }
-#down .card{
+
+#down .card {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 70px auto ;
+    padding: 70px auto;
     padding-top: 80px;
     gap: 30px;
 }
-#down .card .main-card{
+
+#down .card .main-card {
     text-align: center;
     padding: 30px 20px;
     height: 350px;
-    align-content: center; 
-    box-shadow:0 0 6px 0px rgb(215, 213, 213) ;
-} 
-#down .main-card h4{
+    align-content: center;
+    box-shadow: 0 0 6px 0px rgb(215, 213, 213);
+}
+
+#down .main-card h4 {
     font-size: 35px;
 }
-#down .card .main-card p{
+
+#down .card .main-card p {
     font-size: 15px;
     color: #8e8d8d;
 
 }
+
 #down .card .main-card img {
     background-color: rgb(251, 68, 7);
     padding: 18px;
     margin-bottom: 10px;
     border-radius: 50%;
 }
-#down{
-    margin: 0 150px ;
+
+#down {
+    margin: 0 150px;
 }
-#down .card .main-card h4{
+
+#down .card .main-card h4 {
     font-size: 35px;
     padding-bottom: 10px;
     font-weight: bold;
 }
-#brain{
+
+#brain {
     margin: 0;
     max-height: 670px;
     margin-bottom: 120px;
 }
-#brain .brain-contain{
+
+#brain .brain-contain {
     max-height: 700px;
     margin-bottom: 0;
-    display: flex; 
+    display: flex;
     justify-content: space-around;
     gap: 10px;
 }
-#brain .brain-contain .brain-text{
+
+#brain .brain-contain .brain-text {
     max-width: 800px;
     height: 1200px;
     padding-top: 150px;
     margin-right: 200px;
-     
+
 }
-#brain .brain-contain .brain-text .txt{
+
+#brain .brain-contain .brain-text .txt {
     color: #30B868;
     font-size: 37px;
     font-family: 900px;
     margin-bottom: 10px;
 }
-#brain .brain-contain .brain-text h2{
+
+#brain .brain-contain .brain-text h2 {
     font-size: 55px;
     max-width: 500px;
     font-style: bold;
     margin-bottom: 20px;
 }
-#brain .brain-contain .brain-text .left{
+
+#brain .brain-contain .brain-text .left {
     line-height: 38px;
     max-width: 650px;
     margin-bottom: 35px;
     font-weight: 800px;
     color: #8e8d8d;
     font-size: 25px;
-} 
-#brain .brain-contain .brain-text .box{
+}
+
+#brain .brain-contain .brain-text .box {
     display: flex;
     flex-direction: column;
     font-size: 20px;
     line-height: 35px;
-} 
-#brain .brain-contain .brain-text .right .box{
-    
+}
+
+#brain .brain-contain .brain-text .right .box {
+
     margin-top: 10px;
     align-content: center;
 }
-#brain .brain-contain .brain-text .right .box span{
+
+#brain .brain-contain .brain-text .right .box span {
     align-items: center;
 }
 
-#brain .brain-contain  .brain-img{ 
-   /* margin-bottom: 150px; */
+#brain .brain-contain .brain-img {
+    /* margin-bottom: 150px; */
     width: 700px;
-    height:500px;
-} 
-#challenge{
+    height: 500px;
+}
+
+#challenge {
     background: rgba(247, 246, 242, 1);
     margin: 120px 140px;
     border-radius: 25px;
-    
+
 }
-.challenge-container{ 
+
+.challenge-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 120px; 
+    padding: 120px;
 }
-.challenge-container h2{
+
+.challenge-container h2 {
     font-size: 50px;
     font-weight: 700px;
     line-height: 47px;
     margin-bottom: 20px;
 }
 
-.challenge-container p{ 
-     
+.challenge-container p {
+
     font-size: 20px;
     color: #8e8d8d;
     line-height: 28px;
     margin-left: 200px;
     margin-right: 200px;
 }
-.challenge-container .challenge-btn{
+
+.challenge-container .challenge-btn {
     display: flex;
     flex-direction: row;
     align-content: center;
     margin: 25px 0px 10px 0px;
 }
-#footer{
-    background:  rgba(0, 25, 49, 1)  ;
+
+#footer {
+    background: rgba(0, 25, 49, 1);
     height: 370px;
 }
 
-#footer p{
+#footer p {
     color: #FFFF;
     font-size: 20px;
     font-weight: 700px;
     text-align: center;
 }
-#footer .footer-text{
+
+#footer .footer-text {
     display: flex;
     justify-content: space-between;
     padding: 80px;
-    
+
 }
-#footer .footer-text h5{
+
+#footer .footer-text h5 {
     color: #FFFF;
     font-size: 30px;
 }
-#footer .footer-text ul{
+
+#footer .footer-text ul {
     list-style: none;
     display: flex;
-    
+
 }
-#footer .footer-text ul li a img{
+
+#footer .footer-text ul li a img {
     border-radius: 50%;
     width: 50px;
     height: 50px;
