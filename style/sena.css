@@ -196,25 +196,26 @@
     color: #30B868;
     font-size: 37px;
     font-family: 900px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 #brain .brain-contain .brain-text h2{
-    font-size: 75px;
+    font-size: 55px;
+    max-width: 500px;
     font-style: bold;
     margin-bottom: 20px;
 }
 #brain .brain-contain .brain-text .left{
-    line-height: 35px;
-    max-width: 1000px;
+    line-height: 38px;
+    max-width: 650px;
     margin-bottom: 35px;
     font-weight: 800px;
     color: #8e8d8d;
-    font-size: 35px;
+    font-size: 25px;
 } 
 #brain .brain-contain .brain-text .box{
     display: flex;
     flex-direction: column;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 35px;
 } 
 #brain .brain-contain .brain-text .right .box{
@@ -227,8 +228,8 @@
 }
 
 #brain .brain-contain  .brain-photo{ 
-    width: 1000px;
-    height: 1000px;
+    width: 700px;
+    height: 700px;
 } 
 #challenge{
     background: rgba(247, 246, 242, 1);
