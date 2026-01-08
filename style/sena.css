@@ -222,7 +222,7 @@
 } 
 #challenge{
     background: rgba(247, 246, 242, 1);
-    margin: 0px 140px;
+    margin: 140px;
     border-radius: 25px;
     margin-top: 0px;
 }
@@ -256,4 +256,37 @@
     flex-direction: row;
     align-content: center;
     margin: 25px 0px;
+}
+#footer{
+    background:  rgba(0, 25, 49, 1)  ;
+    height: 370px;
+}
+footer .footer-container{
+    margin: 150px;
+}
+#footer p{
+    color: #FFFF;
+    font-size: 20px;
+    font-weight: 700px;
+    text-align: center;
+}
+#footer .footer-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+    
+}
+#footer .footer-text h5{
+    color: #FFFF;
+    font-size: 30px;
+}
+#footer .footer-text ul{
+    list-style: none;
+    display: flex;
+    
+}
+#footer .footer-text ul li a img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
