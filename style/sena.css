@@ -266,6 +266,7 @@
 
 #brain .brain-contain .brain-img {
     /* margin-bottom: 150px; */
+    margin-top: 60px;
     width: 700px;
     height: 500px;
 }
