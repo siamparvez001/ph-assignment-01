@@ -28,7 +28,11 @@
     cursor: pointer;
 
 }
-
+#navbar   li:hover{
+    color: #469165;
+    font-size: 30px;
+    transition: all ease-in 0.5s;
+}
 #navbar .nav-btn {
     padding: 15px 23px;
 
@@ -366,24 +370,42 @@
     height: 50px;
 }
 #btn-hvr:hover{
-    color: #30B868;
-    background-color: #FFFF;
+    color: hsl(87, 36%, 71%);
+    background-color: #5b6900;
+    padding: 18px 30px;
+    transition: all ease-in 0.3s;
+}
+
+#hero .hero-section .hero-btn img:hover{
+    color: #0a50a5;
+    
 }
 #hero .hero-btn .btn-hovr:hover{
     color: #30B868;
-    background-color: #FFFF;
+    background-color: white;
+
+} 
+#hero .hero-btn .image:hover{
+    color: #469165;
+    background-color: #0a50a5;
 }
-#hero .hero-btn .normal-btn .btn-hver:hover{
-    color: #30B868;
-    background-color: #FFFF;
+#hero .hero-btn .normal-btn  #arro-btn .btn-hver:hover{
+    color: #033718;
+    background-color: #dc2222;
 }
 #hero .hero-heading .btn-hover:hover{
-    color: #FFFF;
-    background-color: #469165;
+    color: #871010;
+    background-color: #85caa1;
 }
 #hero .hero-btn .normal-btn:hover{
     color: #469165;
     border: #469165;
+}
+#challenge .challenge-container .challenge-btn #cla-btn:hover{
+    color: white;
+    background-color: #dc2222;
+    font-size: 20px;
+    transition: all ease-in 0.5s;
 }
 #footer .footer-container p{
     
