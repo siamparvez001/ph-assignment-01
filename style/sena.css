@@ -141,7 +141,7 @@
     border-radius: 10px;
 }
 
-#down .down-container {
+#notes .notes-container {
     display: flex;
     flex-direction: column;
     margin: 0 100px;
@@ -150,57 +150,57 @@
     padding-top: 70px;
 }
 
-#down .down-container h3 {
+#notes .notes-container h3 {
     font-size: 60px;
     font-weight: bold;
 }
 
-#down .down-container p {
+#notes .notes-container p {
     font-size: 20px;
     font-weight: 400px;
     color: #8e8d8d;
 }
 
-#down .card {
+#notes .card {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 70px auto;
+    padding: 80px auto;
     padding-top: 80px;
     gap: 30px;
 }
 
-#down .card .main-card {
+#notes .card .main-card {
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 20px;
+ 
+    padding: 50px 20px 50px 20px ;
     max-height: 500px;
     align-content: center;
     box-shadow: 0 0 6px 0px rgb(215, 213, 213);
 }
 
-#down .main-card h4 {
+#notes .main-card h4 {
     font-size: 35px;
 }
 
-#down .card .main-card p {
+#v .card .main-card p {
     font-size: 15px;
     color: #8e8d8d;
 
 }
 
-#down .card .main-card img {
+#notes .card .main-card img {
     background-color: rgb(251, 68, 7);
     padding: 18px;
     margin-bottom: 10px;
     border-radius: 50%;
 }
 
-#down {
+#notes {
     margin: 0 150px;
 }
 
-#down .card .main-card h4 {
+#notes .card .main-card h4 {
     font-size: 35px;
     padding-bottom: 10px;
     font-weight: bold;
@@ -220,7 +220,7 @@
     gap: 10px;
 }
 
-#brain .brain-contain .brain-text {
+#brain .brain-text {
     max-width: 800px;
     height: 1200px;
     padding-top: 150px;
@@ -228,14 +228,14 @@
 
 }
 
-#brain .brain-contain .brain-text .txt {
+#brain  .brain-text .txt {
     color: #30B868;
     font-size: 37px;
     font-family: 900px;
     margin-bottom: 10px;
 }
 
-#brain .brain-contain .brain-text h2 {
+#brain  .brain-text h2 {
     font-size: 55px;
     max-width: 500px;
     font-style: bold;
@@ -254,17 +254,30 @@
 #brain .brain-contain .brain-text .box {
     display: flex;
     flex-direction: column;
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 25px;
+    height: 25px;
+    line-height: 23px;
+    color: #8e8d8d;
+  
 }
 
+#brain .box h4{
+    text-align: center;
+}
+  
+#brain .box .check{
+    
+    width: 30px;
+ 
+    
+}
 #brain .brain-contain .brain-text .right .box {
 
-    margin-top: 10px;
+    margin-top: 20px;
     align-content: center;
 }
 
-#brain .brain-contain .brain-text .right .box span {
+#brain  .right .box span {
     align-items: center;
 }
 
@@ -396,7 +409,7 @@
     box-shadow: 2px 2px 30px 5px black ;
     font-size: 40px;
 }
-#hero .hero-heading .btn-hover:hover{
+#hero  .btn-hover:hover{
     color: #871010;
     background-color: #85caa1;
     font-size: 20px;
@@ -404,9 +417,11 @@
     transition: all ease-in 0.3s;
     box-shadow: 2px 2px 30px 5px black ;
 }
-#hero .hero-btn .normal-btn:hover{
+#hero .normal-btn:hover{
     color: #469165;
     border: #469165;
+    transform: scale(0.9);
+    transition: all ease-in 0.8s;
 }
 #challenge .challenge-container .challenge-btn #cla-btn:hover{
     color: white;
@@ -416,7 +431,7 @@
     box-shadow: 2px 2px 30px black;
 
 }
-#down .main-card:hover{
+#notes .main-card:hover{
     box-shadow: 0 0 20px 2px black ;
     transition: all ease-in 0.5s;
     transform: scale(1.02);
